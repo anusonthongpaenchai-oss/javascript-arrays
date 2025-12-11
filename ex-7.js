@@ -49,6 +49,6 @@ let creditCardTypeOfBlindermann = orders[2].creditCardType;
 let productQuantityOfJoannet = orders[3].productQuantity;
 let totalPurchaseOfDary = orders[1].productPrice * orders[1].productQuantity;
 
-orders.shift(orders[0])
+orders.shift()
 
 console.log(orders);
