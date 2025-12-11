@@ -62,7 +62,6 @@ console.log(orders[3].productQuantity);
 totalPurchaseOfDary = orders[2].productPrice * orders[2].productQuantity;
 console.log(totalPurchaseOfDary);
 
-delete orders[0];
-console.log(orders[0]);
+orders.shift();
 
-console.log(orders)
+console.log(orders);

@@ -22,5 +22,5 @@ const employees = [
 ];
 
 // Start coding here
-delete employees[3];
+employees.pop();
 console.log(employees);
